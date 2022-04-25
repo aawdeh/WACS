@@ -32,7 +32,7 @@ https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03927-2
 ## Usage
 #### Step 1. Generate the weights per control sample.
 
-*./Part.sh controlDir treatmentFile chromSize*
+*./Part1.sh controlDir treatmentFile chromSize*
 
 Inputs:
 
