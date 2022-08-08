@@ -13,8 +13,6 @@ We introduce WACS (Weighted Analysis of ChIP-seq). WACS is an extension of the w
 a specific ChIP-seq experiment. WACS first generates the weights per control to model the background distribution per ChIP-seq experiment. 
 This is then followed by peak calling.
 
-https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03927-2
-
 
 ## Install
 
@@ -71,3 +69,10 @@ then
 
 	macs2 callpeak_wacs -t name.bam -c $controlNames_full -w $controlWeights
 fi 
+
+
+
+## Citation
+If you use this code for your research, please cite our [paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03927-2):
+
+Awdeh, Aseel, Marcel Turcotte, and Theodore J. Perkins. "WACS: improving ChIP-seq peak calling by optimally weighting controls." BMC bioinformatics 22.1 (2021): 1-21.
